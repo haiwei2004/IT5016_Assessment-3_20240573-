@@ -1,0 +1,52 @@
+M1 = input (M1)
+M2 = input (M2)
+M3 = input (M3)
+M4 = input (M4)
+grade=(M1+M2+M3+M4)/4
+if grade<50:
+print("PASS")
+else:
+print("FAIL")
+#This is my first code from this class, it let me know how interesting IT is. it also help me understand how to use these codes.
+
+score=float((input("enter a score:"))
+if (o<=score<=100):
+if (score>=80):
+print ("A")
+if (score>=60):
+print ("B")
+if (score>=50):
+print ("C")
+else:
+print ("FAIL")
+#This cide taughtt me know how to do if loop to make different answer. But this is not the correct one under my teacher's help, i work the rigth one below.
+score = float((input(enter a score:")))
+while (score<0 or score>100):
+score =bfloat((input(enter a score:")))
+if (score >= 80):
+print ("A")
+elif (score >= 60):
+print ("B")
+elif (score >= 50):
+print ("C")
+elif (score <50):
+print ("FAIL")
+else:
+print("FAIL")
+#I got this one with Dr simon 's help. So that i understand use elif not only if loop!
+
+x=input("Enter your student ID:")
+k=inpu("Enter your first name:")
+n=input("Enter your last name:")
+m=input("Enter your the sentence:")
+new_m=m.split()
+print(new_m)
+if "whitecliffe" in m and "college" in m:
+s1=x[0:3]
+s2=n[0:2]
+new_gen=s1+s2
+print(new_gen)
+else:print("end")
+#To be honest this isthe first one i thought was difficult one. For me, it is really hard. At that time i cannot finnish by myself, so i ask teacher for around three time and then i finally worked out.
+
+# these just some simple examples from my class. i learnt a lot from these 8 weeks and i met a lot new friends.
